@@ -1,9 +1,9 @@
 import Head from "next/head";
 import { useState } from "react";
-import { Header } from "../components/Header";
-import { Play } from "../components/Play";
-import { Rules } from "../components/Rules";
-import { Results } from "../components/Results";
+import { Header } from "./components/Header";
+import { Play } from "./components/Play";
+import { Rules } from "./components/Rules";
+import { Results } from "./components/Results";
 
 export default function Home() {
   const [advancedMode, setAdvancedMode] = useState(false);
