@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Play - Rock Paper Scissors Game</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header advanced={advancedMode} score={score} />
