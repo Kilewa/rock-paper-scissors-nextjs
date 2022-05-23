@@ -60,7 +60,7 @@ export const Results: FunctionComponent<ResultsProps> = ({
       </div>
 
       <div className={styles.pick}>
-        <h3>House Picked</h3>
+        <h3>The Computer Picked</h3>
         <motion.div
           className={result === "Lose" ? styles.win : styles.house}
           initial={{ y: 20 }}
